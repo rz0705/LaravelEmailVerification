@@ -64,5 +64,19 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# Laravel-Email-Verification
+
 # LaravelEmailVerification
+
+# Make Change
+
+Rename .env.example to .env file and use your db name, username, password and mail creadential of mailtrap.
+
+# Run Commands
+
+composer install
+
+php artisan key:generate
+
+php artisan migrate
+
+php artisan serve
